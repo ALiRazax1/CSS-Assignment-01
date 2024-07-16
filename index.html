@@ -1,14 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Product</title>
-</head>
-<body>
-    <div>
-        <div></div>
-        <div></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Two Cards Side by Side</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- 1st card -->
+      <div class="card">
+        <div class="seller-heading"><p>Nearest Seller</p></div>
+        <!-- <span class="seller">Nearest Seller</span><br /> -->
+
+        <img
+          height="300px"
+          src="./assets/img/headset.png"
+          alt=""
+        />
+        <div class="headset-heading"><h1>Wireless Bluetooth Headset</h1></div>
+        <div class="shipping-time">
+          <p><span class="ship-days">shipped in 3-4 days</span><br /> <span class="price-tag">$35.99</span></p>
+        </div>
+        <div class="button">
+          <button class="cart-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-cart3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+              />
+            </svg>
+            Add Cart
+          </button>
+          <button class="buy-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-bag"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+              />
+            </svg>
+            Buy Now
+          </button>
+        </div>
+      </div>
+      <!-- 2nd card -->
+
+      <div class="card">
+        <div class="seller-heading"><p>Nearest Seller</p></div>
+        <img
+          height="300px"
+          src="./assets/img/headset.png"
+          alt=""
+        />
+        <div class="headset-heading"><h1>Wireless Bluetooth Headset</h1></div>
+        <div class="shipping-time">
+          <p><span class="ship-days">shipped in 3-4 days</span><br /> <span class="price-tag">$35.99</span> </p>
+        </div>
+        <div class="button">
+          <button class="cart-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-cart3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+              />
+            </svg>
+            Add Cart
+          </button>
+          <button class="buy-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-bag"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"
+              />
+            </svg>
+            Buy Now
+          </button>
+        </div>
+      </div>
     </div>
-</body>
+    <!-- <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script> -->
+  </body>
 </html>
